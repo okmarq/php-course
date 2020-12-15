@@ -15,11 +15,9 @@ $a = 0b11111111; // binary number (equivalent to 255 decimal)<br>
 $a = 1_234_567; // decimal number (as of PHP 7.4.0)<br>
 ?&gt;
 ';
-echo PHP_INT_MIN.'<br>';
-echo PHP_INT_MAX.'<br>';
-echo PHP_INT_SIZE.'<br>';
+
 $prev = 'bool';
 
-$next = 'int';
+$next = 'float';
 
 include 'index.php';
